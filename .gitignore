@@ -1,0 +1,22 @@
+# Python Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Project Specific Data & Models (Generated locally by scripts)
+chroma_db/
+models/
+~/scikit_learn_data/
+
+# IDEs and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

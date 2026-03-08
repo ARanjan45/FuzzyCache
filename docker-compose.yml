@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  semantic_search_api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./chroma_db:/app/chroma_db
