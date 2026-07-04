@@ -1,4 +1,4 @@
-# Trademarkia Semantic Search & Dynamic Cache
+# Semantic Search & Dynamic Cache
 
 This repository contains a lightweight, semantic search system built on the 20 Newsgroups dataset. It features an evidence-based fuzzy clustering engine, a custom-built semantic cache utilizing dynamic density thresholding, and a stateful FastAPI service.
 
