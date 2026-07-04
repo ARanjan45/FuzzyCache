@@ -53,7 +53,7 @@ async def lifespan(app: FastAPI):
     print("Shutting down gracefully...")
     app_state.clear()
 
-app = FastAPI(title="Trademarkia Semantic Search", lifespan=lifespan)
+app = FastAPI(title="FuzzyCache Semantic Search", lifespan=lifespan)
 
 
 @app.post("/query", response_model=QueryResponse)
